@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 75px;
+    display: flex;
+    background-color: royalblue;
+    width: 100%;
+    }
+    @media screen and (min-width: 480px) {
+    body {
+    background-color: white;
+    }
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+ 
+    <nav id="navbar" class="nav" style="position:fixed;">
+        <a href="#projects">
+            Jump to my projects
+        </a> 
+    </nav>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <section id="welcome-section" class="welcome-section" style="padding-top:100px; height:100vh;">
+        <h1>Hey I am Daniel</h1>
+        <p>a new web developer</p>
+    </section>
+    <section id="projects" class="projects-section" style="padding:500px;">
+
+        <h2 class="projects-section-header">These are some of my projects</h2>
+        <div class="projects-grid">
+          <a
+            href="https://codepen.io/daniel-erenburg/pen/NWRLYEZ?editors=1000x"
+            target="_blank"
+            class="project project-tile"
+          > 
+          My first project
+          </a>
+        </div>
+    </section> 
+    <div>
+        <a id="profile-link" href="https://codepen.io/daniel-erenburg" target="_blank"> My codepen profile</a>
+    </div> 
+</body>
+</html>

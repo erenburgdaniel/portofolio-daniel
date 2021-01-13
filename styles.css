@@ -1,0 +1,32 @@
+*,
+        *::before,
+        *::after {
+        box-sizing: inherit;
+        }
+        body {
+            height: 100vh;
+        }
+        @media screen and (min-width: 480px) {
+             body {
+            background-color: white;
+         }
+        }
+
+        .nav{
+            position: fixed;
+            height:100px;
+        }
+
+        .welcome-section{
+            height: 100vh;
+            padding: 50px;
+        }
+
+        #profile-link {
+            padding: 100px;
+        }
+        html {
+            box-sizing: border-box;
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+        }
